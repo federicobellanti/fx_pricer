@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 .env
 desktop.ini
+**/desktop.ini
