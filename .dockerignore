@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environment — never copy this into the container
+venv/
+.venv/
+env/
+
+# Secrets — these must NEVER be in the image
+.streamlit/secrets.toml
+
+# Development files
+.git/
+.gitignore
+*.md
+
+# Local test outputs
+*.csv.bak
